@@ -56,7 +56,7 @@ export default function BioSection() {
           <div className="relative w-3/4 h-3/4 overflow-hidden rounded-full border-4 border-[#00bfff]/50 box-glow z-10 transition-transform duration-500 hover:scale-105">
             {/* The user provided 3 images, image_1.png is the photo according to request. We'll use a placeholder if not found, but we can assume they are uploaded? The request says "photo from image_1.png". Since I don't have the files in the workspace (they are attached to the chat), I should use standard placeholder. Actually, let's look if there are files in the workspace. */}
             <Image 
-               src="https://i.postimg.cc/nVg4Fq3R/Whats-App-Image-2026-01-05-at-08-20-43-c113e2d2.jpg" 
+               src="https://postimg.cc/c67gTtyw" 
                alt="Eng. Shehab Elebady"
                fill
                className="object-cover"
