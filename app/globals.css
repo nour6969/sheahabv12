@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui;
+  --font-orbitron: var(--font-orbitron), ui-sans-serif, system-ui;
+  --font-mono: var(--font-mono), ui-monospace, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* hide default cursor when we use custom cursor */
+  cursor: none;
+}
+
+/* Fallback for touch devices */
+@media (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(0, 191, 255, 0.4);
+}
+
+.box-glow {
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6), inset 0 0 10px rgba(0, 191, 255, 0.2);
+}
